@@ -16,7 +16,7 @@ interface IconCircleProps {
 export const HomeContainer = styled.main`
   width: 100%;
 
-  padding-bottom: 6.25rem;
+  padding: 6.5rem 0;
 `
 
 export const HeroSection = styled.section`

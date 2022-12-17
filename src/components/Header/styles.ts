@@ -9,6 +9,12 @@ export const HeaderContainer = styled.header`
   background-color: ${(props) => props.theme.background};
 
   padding: 2rem 0;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 `
 
 export const Grid = styled.div`
