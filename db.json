@@ -1,0 +1,140 @@
+{
+  "coffees": [
+    {
+      "id": "4adf9219-c6a6-421b-a95d-67ebade6b9ea",
+      "categories": [
+        "tradicional"
+      ],
+      "name": "Expresso Tradicional",
+      "price": 990,
+      "imageUrl": "./src/assets/coffees/expresso.png"
+    },
+    {
+      "id": "c4fda4e5-1df4-4dc0-8214-e041ba821820",
+      "categories": [
+        "tradicional"
+      ],
+      "name": "Expresso Americano",
+      "price": 990,
+      "imageUrl": "./src/assets/coffees/americano.png"
+    },
+    {
+      "id": "1ea5cbff-f0e7-4beb-b498-345d11b65862",
+      "categories": [
+        "tradicional"
+      ],
+      "name": "Expresso Cremoso",
+      "price": 990,
+      "imageUrl": "./src/assets/coffees/expresso-cremoso.png"
+    },
+    {
+      "id": "eeafdeb4-b83b-48ee-b9e3-67581c1d4f6e",
+      "categories": [
+        "tradicional",
+        "gelado"
+      ],
+      "name": "Expresso Gelado",
+      "price": 990,
+      "imageUrl": "./src/assets/coffees/cafe-gelado.png"
+    },
+    {
+      "id": "1e7e657c-ace9-444b-854f-bcbb91a6e0c3",
+      "categories": [
+        "tradicional",
+        "com leite"
+      ],
+      "name": "Café com Leite",
+      "price": 990,
+      "imageUrl": "./src/assets/coffees/cafe-com-leite.png"
+    },
+    {
+      "id": "34afa234-9d26-4a5a-ae97-eef02b009288",
+      "categories": [
+        "tradicional",
+        "com leite"
+      ],
+      "name": "Latte",
+      "price": 990,
+      "imageUrl": "./src/assets/coffees/latte.png"
+    },
+    {
+      "id": "fca4b01d-1c68-4820-9ae6-52889ecd70c0",
+      "categories": [
+        "tradicional",
+        "com leite"
+      ],
+      "name": "Capuccino",
+      "price": 990,
+      "imageUrl": "./src/assets/coffees/capuccino.png"
+    },
+    {
+      "id": "99e83ef5-1d38-4db7-a5ba-72aff1299c9c",
+      "categories": [
+        "tradicional",
+        "com leite"
+      ],
+      "name": "Macchiato",
+      "price": 990,
+      "imageUrl": "./src/assets/coffees/macchiato.png"
+    },
+    {
+      "id": "2b21b165-5adc-43ed-809f-9186c30c8c66",
+      "categories": [
+        "tradicional",
+        "com leite"
+      ],
+      "name": "Mocaccino",
+      "price": 990,
+      "imageUrl": "./src/assets/coffees/mochaccino.png"
+    },
+    {
+      "id": "15f946b4-1762-430e-a1bd-4dcbd8f36a84",
+      "categories": [
+        "especial",
+        "com leite"
+      ],
+      "name": "Chocolate Quente",
+      "price": 990,
+      "imageUrl": "./src/assets/coffees/chocolate-quente.png"
+    },
+    {
+      "id": "a6bd33dd-368f-4865-9419-88c56b0c1a10",
+      "categories": [
+        "especial",
+        "alcoólico",
+        "gelado"
+      ],
+      "name": "Cubano",
+      "price": 990,
+      "imageUrl": "./src/assets/coffees/cubano.png"
+    },
+    {
+      "id": "a4b38c57-623b-4bce-a03c-e277fbdd4b35",
+      "categories": [
+        "especial"
+      ],
+      "name": "Havaiano",
+      "price": 990,
+      "imageUrl": "./src/assets/coffees/havaiano.png"
+    },
+    {
+      "id": "e497f2a8-137f-4d9b-9f82-01fe455b4c24",
+      "categories": [
+        "especial"
+      ],
+      "name": "Árabe",
+      "price": 990,
+      "imageUrl": "./src/assets/coffees/arabe.png"
+    },
+    {
+      "id": "967294de-55da-4bc3-a56d-9ce29e292e2c",
+      "categories": [
+        "especial",
+        "alcoólico"
+      ],
+      "name": "Irlandês",
+      "price": 990,
+      "imageUrl": "./src/assets/coffees/irlandes.png"
+    }
+  ]
+}
