@@ -7,7 +7,8 @@
       ],
       "name": "Expresso Tradicional",
       "price": 990,
-      "imageUrl": "./src/assets/coffees/expresso.png"
+      "imageUrl": "./src/assets/coffees/expresso.png",
+      "description": "O tradicional café feito com água quente e grãos moídos"
     },
     {
       "id": "c4fda4e5-1df4-4dc0-8214-e041ba821820",
@@ -16,7 +17,8 @@
       ],
       "name": "Expresso Americano",
       "price": 990,
-      "imageUrl": "./src/assets/coffees/americano.png"
+      "imageUrl": "./src/assets/coffees/americano.png",
+      "description": "Expresso diluído, menos intenso que o tradicional"
     },
     {
       "id": "1ea5cbff-f0e7-4beb-b498-345d11b65862",
@@ -25,7 +27,8 @@
       ],
       "name": "Expresso Cremoso",
       "price": 990,
-      "imageUrl": "./src/assets/coffees/expresso-cremoso.png"
+      "imageUrl": "./src/assets/coffees/expresso-cremoso.png",
+      "description": "Café expresso tradicional com espuma cremosa"
     },
     {
       "id": "eeafdeb4-b83b-48ee-b9e3-67581c1d4f6e",
@@ -35,7 +38,8 @@
       ],
       "name": "Expresso Gelado",
       "price": 990,
-      "imageUrl": "./src/assets/coffees/cafe-gelado.png"
+      "imageUrl": "./src/assets/coffees/cafe-gelado.png",
+      "description": "Bebida preparada com café expresso e cubos de gelo"
     },
     {
       "id": "1e7e657c-ace9-444b-854f-bcbb91a6e0c3",
@@ -45,7 +49,8 @@
       ],
       "name": "Café com Leite",
       "price": 990,
-      "imageUrl": "./src/assets/coffees/cafe-com-leite.png"
+      "imageUrl": "./src/assets/coffees/cafe-com-leite.png",
+      "description": "Meio a meio de expresso tradicional com leite vaporizado"
     },
     {
       "id": "34afa234-9d26-4a5a-ae97-eef02b009288",
@@ -55,7 +60,8 @@
       ],
       "name": "Latte",
       "price": 990,
-      "imageUrl": "./src/assets/coffees/latte.png"
+      "imageUrl": "./src/assets/coffees/latte.png",
+      "description": "Uma dose de café expresso com o dobro de leite e espuma cremosa"
     },
     {
       "id": "fca4b01d-1c68-4820-9ae6-52889ecd70c0",
@@ -65,7 +71,8 @@
       ],
       "name": "Capuccino",
       "price": 990,
-      "imageUrl": "./src/assets/coffees/capuccino.png"
+      "imageUrl": "./src/assets/coffees/capuccino.png",
+      "description": "Bebida com canela feita de doses iguais de café, leite e espuma"
     },
     {
       "id": "99e83ef5-1d38-4db7-a5ba-72aff1299c9c",
@@ -75,7 +82,8 @@
       ],
       "name": "Macchiato",
       "price": 990,
-      "imageUrl": "./src/assets/coffees/macchiato.png"
+      "imageUrl": "./src/assets/coffees/macchiato.png",
+      "description": "Café expresso misturado com um pouco de leite quente e espuma"
     },
     {
       "id": "2b21b165-5adc-43ed-809f-9186c30c8c66",
@@ -85,7 +93,8 @@
       ],
       "name": "Mocaccino",
       "price": 990,
-      "imageUrl": "./src/assets/coffees/mochaccino.png"
+      "imageUrl": "./src/assets/coffees/mochaccino.png",
+      "description": "Café expresso com calda de chocolate, pouco leite e espuma"
     },
     {
       "id": "15f946b4-1762-430e-a1bd-4dcbd8f36a84",
@@ -95,7 +104,8 @@
       ],
       "name": "Chocolate Quente",
       "price": 990,
-      "imageUrl": "./src/assets/coffees/chocolate-quente.png"
+      "imageUrl": "./src/assets/coffees/chocolate-quente.png",
+      "description": "Bebida feita com chocolate dissolvido no leite quente e café"
     },
     {
       "id": "a6bd33dd-368f-4865-9419-88c56b0c1a10",
@@ -106,7 +116,8 @@
       ],
       "name": "Cubano",
       "price": 990,
-      "imageUrl": "./src/assets/coffees/cubano.png"
+      "imageUrl": "./src/assets/coffees/cubano.png",
+      "description": "Drink gelado de café expresso com rum, creme de leite e hortelã"
     },
     {
       "id": "a4b38c57-623b-4bce-a03c-e277fbdd4b35",
@@ -115,7 +126,8 @@
       ],
       "name": "Havaiano",
       "price": 990,
-      "imageUrl": "./src/assets/coffees/havaiano.png"
+      "imageUrl": "./src/assets/coffees/havaiano.png",
+      "description": "Bebida adocicada preparada com café e leite de coco"
     },
     {
       "id": "e497f2a8-137f-4d9b-9f82-01fe455b4c24",
@@ -124,7 +136,8 @@
       ],
       "name": "Árabe",
       "price": 990,
-      "imageUrl": "./src/assets/coffees/arabe.png"
+      "imageUrl": "./src/assets/coffees/arabe.png",
+      "description": "Bebida preparada com grãos de café árabe e especiarias"
     },
     {
       "id": "967294de-55da-4bc3-a56d-9ce29e292e2c",
@@ -134,7 +147,8 @@
       ],
       "name": "Irlandês",
       "price": 990,
-      "imageUrl": "./src/assets/coffees/irlandes.png"
+      "imageUrl": "./src/assets/coffees/irlandes.png",
+      "description": "Bebida a base de café, uísque irlandês, açúcar e chantilly"
     }
   ]
 }
