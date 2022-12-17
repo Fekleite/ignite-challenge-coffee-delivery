@@ -28,7 +28,7 @@ export const Card = styled.div`
     margin-bottom: 0.5rem;
   }
 
-  span {
+  > span {
     font-size: 0.875rem;
     line-height: 130%;
     text-align: center;
