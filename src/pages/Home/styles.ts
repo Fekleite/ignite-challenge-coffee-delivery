@@ -15,6 +15,8 @@ interface IconCircleProps {
 
 export const HomeContainer = styled.main`
   width: 100%;
+
+  padding-bottom: 6.25rem;
 `
 
 export const HeroSection = styled.section`
@@ -38,8 +40,15 @@ export const Grid = styled.div`
   padding: 0 1rem;
 
   display: flex;
+`
+
+export const GridRow = styled(Grid)`
   align-items: center;
   justify-content: space-between;
+`
+
+export const GridColumn = styled(Grid)`
+  flex-direction: column;
 `
 
 export const Content = styled.div`
@@ -109,4 +118,24 @@ export const ImageContainer = styled.div`
 
     display: block;
   }
+`
+
+export const CoffeeSection = styled.section`
+  padding: 2rem 0;
+
+  h2 {
+    font-family: 'Baloo 2';
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 130%;
+    color: ${(props) => props.theme['base-subtitle']};
+  }
+`
+
+export const CoffeeList = styled.div`
+  margin-top: 3.375rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 32px;
 `
