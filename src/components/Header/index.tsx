@@ -9,7 +9,9 @@ export function Header() {
   return (
     <HeaderContainer>
       <Grid>
-        <img src={logoImg} alt="Coffee Delivery" />
+        <Link to="/">
+          <img src={logoImg} alt="Coffee Delivery" />
+        </Link>
 
         <Actions>
           <Location>
@@ -18,7 +20,7 @@ export function Header() {
           </Location>
 
           <Cart isFull={true}>
-            <Link to="/cart">
+            <Link to="/checkout">
               <ShoppingCart size={22} weight="fill" />
             </Link>
 
