@@ -1,11 +1,16 @@
+import { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { MapPin, ShoppingCart } from 'phosphor-react'
 
 import logoImg from '../../assets/logo.svg'
 
+import { CartItemsContext } from '../../contexts/CartItemsContext'
+
 import { Actions, Grid, HeaderContainer, Location, Cart } from './styles'
 
 export function Header() {
+  const { totalCartItems } = useContext(CartItemsContext)
+
   return (
     <HeaderContainer>
       <Grid>
@@ -24,7 +29,7 @@ export function Header() {
               <ShoppingCart size={22} weight="fill" />
             </Link>
 
-            <span>3</span>
+            <span>{totalCartItems}</span>
           </Cart>
         </Actions>
       </Grid>
