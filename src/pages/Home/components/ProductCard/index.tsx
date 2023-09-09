@@ -47,7 +47,7 @@ export function ProductCard({ coffeeData }: ProductCardProps) {
 
   function handleAddItemToCart() {
     addItemToCart(coffeeData, count)
-    setCount(0)
+    setCount(1)
   }
 
   return (
