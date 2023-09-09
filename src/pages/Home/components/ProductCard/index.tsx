@@ -1,8 +1,9 @@
-import { ShoppingCart } from 'phosphor-react'
+import { useContext, useState } from 'react'
+import { ShoppingCart, Minus, Plus } from 'phosphor-react'
 
 import { CoffeeType } from '../../../../@types/coffee'
 
-import { Counter } from '../../../../components/Counter'
+import { CartItemsContext } from '../../../../contexts/CartItemsContext'
 
 import {
   Actions,
@@ -12,6 +13,9 @@ import {
   ImageContainer,
   Price,
   BuyButton,
+  CounterContainer,
+  MinusButton,
+  PlusButton,
 } from './styles'
 
 interface ProductCardProps {
@@ -19,9 +23,32 @@ interface ProductCardProps {
 }
 
 export function ProductCard({ coffeeData }: ProductCardProps) {
+  const { addItemToCart } = useContext(CartItemsContext)
+
+  const [count, setCount] = useState(1)
+
+  function handleAdd() {
+    setCount((oldState) => oldState + 1)
+  }
+
+  function handleSub() {
+    setCount((oldState) => {
+      if (oldState === 0) {
+        return 0
+      }
+
+      return oldState - 1
+    })
+  }
+
   const formattedPrice = (coffeeData.price / 100).toLocaleString('pt-br', {
     minimumFractionDigits: 2,
   })
+
+  function handleAddItemToCart() {
+    addItemToCart(coffeeData, count)
+    setCount(0)
+  }
 
   return (
     <Card>
@@ -46,9 +73,19 @@ export function ProductCard({ coffeeData }: ProductCardProps) {
         </Price>
 
         <Actions>
-          <Counter />
+          <CounterContainer>
+            <MinusButton title="Menos um" onClick={handleSub}>
+              <Minus size={14} weight="bold" />
+            </MinusButton>
 
-          <BuyButton>
+            <span>{count}</span>
+
+            <PlusButton title="Mais um" onClick={handleAdd}>
+              <Plus size={14} weight="bold" />
+            </PlusButton>
+          </CounterContainer>
+
+          <BuyButton onClick={handleAddItemToCart}>
             <ShoppingCart size={22} weight="fill" />
           </BuyButton>
         </Actions>
