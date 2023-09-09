@@ -30,8 +30,24 @@ import {
   Summary,
 } from './styles'
 
+const DELIVERY_PRICE = 350
+
 export function Checkout() {
   const { items } = useContext(CartItemsContext)
+
+  const subtotal = items.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue.amount * currentValue.price
+  }, 0)
+
+  function formatPrice(value: number) {
+    return (value / 100).toLocaleString('pt-br', {
+      minimumFractionDigits: 2,
+    })
+  }
+
+  const formattedSubtotal = formatPrice(subtotal)
+  const formattedDeliveryPrice = formatPrice(DELIVERY_PRICE)
+  const formattedTotal = formatPrice(subtotal + DELIVERY_PRICE)
 
   return (
     <CheckoutContainer>
@@ -117,19 +133,19 @@ export function Checkout() {
                   <div className="subtotal">
                     <span>Total de itens</span>
 
-                    <span>R$ 29,70</span>
+                    <span>R$ {formattedSubtotal}</span>
                   </div>
 
                   <div className="shipping">
                     <span>Entrega</span>
 
-                    <span>R$ 3,50</span>
+                    <span>R$ {formattedDeliveryPrice}</span>
                   </div>
 
                   <div className="total">
                     <span>Total</span>
 
-                    <span>R$ 33,20</span>
+                    <span>R$ {formattedTotal}</span>
                   </div>
                 </Summary>
 
