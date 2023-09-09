@@ -19,7 +19,7 @@ export function addItemToCartAction(item: Item) {
 
 export function increaseItemsCartAction(itemId: string) {
   return {
-    type: ActionTypes.REMOVE_ITEMS_CART,
+    type: ActionTypes.INCREASE_ITEMS_CART,
     payload: {
       itemId,
     },
