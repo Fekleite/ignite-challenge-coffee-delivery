@@ -1,3 +1,4 @@
+import { useContext } from 'react'
 import {
   Bank,
   CreditCard,
@@ -7,6 +8,8 @@ import {
 } from 'phosphor-react'
 
 import { ProductListCard } from './ProductListCard'
+
+import { CartItemsContext } from '../../contexts/CartItemsContext'
 
 import {
   CheckoutContainer,
@@ -28,6 +31,8 @@ import {
 } from './styles'
 
 export function Checkout() {
+  const { items } = useContext(CartItemsContext)
+
   return (
     <CheckoutContainer>
       <Grid>
@@ -102,9 +107,9 @@ export function Checkout() {
 
             <SelectedCard>
               <ProductList>
-                <ProductListCard />
-
-                <ProductListCard />
+                {items.map((item) => (
+                  <ProductListCard data={item} key={item.id} />
+                ))}
               </ProductList>
 
               <Footer>
