@@ -4,6 +4,7 @@ import { ActionTypes } from './actions'
 
 export interface Item {
   id: string
+  image: string
   name: string
   amount: number
   price: number
